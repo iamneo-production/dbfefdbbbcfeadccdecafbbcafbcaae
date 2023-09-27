@@ -14,10 +14,10 @@ public class EmpController {
     @Autowired
     EmpDao dao;
 
-    // @RequestMapping("/")
-    // public String showIndexPage() {
-    //     return "index"; // This corresponds to index.jsp
-    // }
+    @RequestMapping("/")
+    public String showIndexPage() {
+        return "index"; // This corresponds to index.jsp
+    }
 
     @RequestMapping("/empform")
     public String showform(Model m) {
