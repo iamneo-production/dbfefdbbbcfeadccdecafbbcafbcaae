@@ -28,7 +28,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-@ContextConfiguration(classes = { TestConfig.class })
+@ContextConfiguration(classes = { MyAppConfig.class })
 public class AppTest {
 
     private MockMvc mockMvc;
